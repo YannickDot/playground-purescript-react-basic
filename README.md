@@ -1,5 +1,18 @@
 # playground-purescript-react-basic
 
+I blocked a few days to learn [lumihq/purescript-react-basic](https://github.com/lumihq/purescript-react-basic).
+
+I made a few components to explore some things I do really often with React in JS :
+
+- Inputs and Buttons
+- Timers
+- Network requests + parse JSON
+- Rendering lists
+
+It was a really pleasant experience !
+
+Next step : try [spicydonuts/purescript-react-basic-hooks](https://github.com/spicydonuts/purescript-react-basic-hooks) and [dwhitney/purescript-react-basic-native](https://github.com/dwhitney/purescript-react-basic-native)
+
 ## Install
 
 Install project dependencies
