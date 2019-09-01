@@ -9,8 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build:debug": "spago build -- -g sourcemaps",
-    "start:debug": "parcel dist/index.html"
+    "install": "spago install",
+    "build": "spago build",
+    "build-production": "spago build && parcel build index.html",
+    "clean": "rm -rf .cache .spago .psci_modules node_modules output dist"
   },
   "author": "Yannick Spark <sparky.creativespace@gmail.com> (https://sparkyspace.com/)",
   "license": "ISC",
@@ -20,6 +22,8 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
+    "purescript": "^0.13.3",
+    "purescript-spago": "^0.6.4",
     "purty": "^4.5.1"
   }
 }
